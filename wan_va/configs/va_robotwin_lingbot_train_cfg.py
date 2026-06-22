@@ -35,3 +35,4 @@ va_robotwin_lingbot_train_cfg.save_root = os.getenv(
 
 va_robotwin_lingbot_train_cfg.enable_wandb = _env_bool("ENABLE_WANDB", False)
 va_robotwin_lingbot_train_cfg.save_interval = 50000
+va_robotwin_lingbot_train_cfg.load_worker = 4
